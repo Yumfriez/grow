@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 @CacheConfig(cacheNames = { "dummies" })
 public class DummyService {
 
-	private final Map<String, String> slowMap = new HashMap<>() {
+	private final Map<String, String> slowMap = new HashMap<String, String>() {
 		@Override
 		public String get(Object key) {
 			try {
