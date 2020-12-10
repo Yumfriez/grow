@@ -1,2 +1,4 @@
 rootProject.name = 'grow'
+include 'spring-core'
+include 'java-core'
 
