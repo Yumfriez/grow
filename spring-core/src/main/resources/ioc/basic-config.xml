@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="firstBean" scope="prototype" class="com.budaev.spring.core.ioc.xml.beans.FirstBean"/>
+    <bean id="firstNestedBean" scope="prototype" class="com.budaev.spring.core.ioc.xml.beans.FirstBean$FirstNestedBean"/>
+    <bean id="secondBean" class="com.budaev.spring.core.ioc.xml.beans.SecondBean" factory-method="createInstance" init-method="init"
+          destroy-method="destroy">
+        <constructor-arg ref="firstNestedBean"/>
+    </bean>
+    <bean id="beanUser" class="com.budaev.spring.core.ioc.xml.beans.BeanUser">
+        <constructor-arg ref="firstBean"/>
+    </bean>
+
+    <bean id="myBeanPostProcessor" class="com.budaev.spring.core.ioc.xml.postprocessor.MyBeanPostProcessor"/>
+</beans>
