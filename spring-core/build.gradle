@@ -20,4 +20,9 @@ dependencies {
 
     compile 'org.springframework.boot:spring-boot-starter'
     compile 'org.springframework.boot:spring-boot-starter-cache'
+
+    //mvc package
+    compile 'javax.servlet:javax.servlet-api:4.0.1'
+    compile 'org.springframework:spring-webmvc:5.2.1.RELEASE'
+    //mvc package
 }
