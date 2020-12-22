@@ -1,4 +1,4 @@
-package creational.factory.method;
+package creational.method;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

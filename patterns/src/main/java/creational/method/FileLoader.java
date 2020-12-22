@@ -1,4 +1,4 @@
-package creational.factory.method;
+package creational.method;
 
 import java.io.IOException;
 import java.io.InputStream;
