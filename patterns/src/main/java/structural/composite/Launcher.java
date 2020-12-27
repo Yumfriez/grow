@@ -13,8 +13,10 @@ public class Launcher {
 		Directory usersDir = new Directory("users", Paths.get("/"));
 		Directory myUserDir = new Directory("myUser", usersDir.getPath());
 		usersDir.addComponent(myUserDir);
+
 		File imageFile = new File(1000, "image.png", usersDir.getPath());
 		usersDir.addComponent(imageFile);
+
 		Stream.generate(() -> new File(100, "file" + new Random().nextInt() + ".txt", myUserDir.getPath()))
 				.limit(5)
 				.forEach(myUserDir::addComponent);
