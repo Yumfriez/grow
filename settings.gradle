@@ -3,4 +3,6 @@ include 'spring-core'
 include 'java-core'
 include 'spring-tomcat-embedded'
 include 'patterns'
+include 'spring-aop'
+include 'spring-rest'
 
