@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 /**
- * @author <a href="mailto:ivan_budayeu@epam.com">Ivan Budayeu</a>
+ * @author <a href="mailto:budaevqwerty@gmail.com">Ivan Budayeu</a>
  */
 public class UrlFileLoader implements FileLoader {
 	@Override

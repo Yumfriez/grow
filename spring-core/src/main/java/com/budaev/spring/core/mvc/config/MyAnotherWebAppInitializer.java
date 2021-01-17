@@ -7,7 +7,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletRegistration;
 
 /**
- * @author <a href="mailto:ivan_budayeu@epam.com">Ivan Budayeu</a>
+ * @author <a href="mailto:budaevqwerty@gmail.com">Ivan Budayeu</a>
  */
 public class MyAnotherWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override

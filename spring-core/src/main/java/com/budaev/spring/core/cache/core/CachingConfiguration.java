@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Collections;
 
 /**
- * @author <a href="mailto:ivan_budayeu@epam.com">Ivan Budayeu</a>
+ * @author <a href="mailto:budaevqwerty@gmail.com">Ivan Budayeu</a>
  */
 @Configuration
 @EnableCaching

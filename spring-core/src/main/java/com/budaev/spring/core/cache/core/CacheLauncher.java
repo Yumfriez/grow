@@ -4,7 +4,7 @@ import com.budaev.spring.core.cache.common.DummyService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author <a href="mailto:ivan_budayeu@epam.com">Ivan Budayeu</a>
+ * @author <a href="mailto:budaevqwerty@gmail.com">Ivan Budayeu</a>
  */
 public class CacheLauncher {
 
