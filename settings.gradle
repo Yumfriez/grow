@@ -5,4 +5,5 @@ include 'spring-tomcat-embedded'
 include 'patterns'
 include 'spring-aop'
 include 'spring-rest'
+include 'spring-batch'
 
