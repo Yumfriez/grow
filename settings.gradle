@@ -6,4 +6,6 @@ include 'patterns'
 include 'spring-aop'
 include 'spring-rest'
 include 'spring-batch'
+include 'spring-orm'
+include 'gradle'
 
